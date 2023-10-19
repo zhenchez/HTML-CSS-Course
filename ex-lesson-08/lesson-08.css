@@ -1,0 +1,80 @@
+*{
+  font-family: Arial;
+}
+
+.a input {
+  display: block;
+  margin: 4px 0;
+}
+.b p {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.c {
+  margin: 80px;
+}
+.c img {
+  width: 300px;
+  margin-left: 100px;
+}
+.c input {
+  display: block;
+  width: 480px;
+  height: 35px;
+  padding: 4px 15px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.c input:focus {
+  outline: none;
+}
+
+.d input {
+  border: 1px solid rgb(200, 200, 200);
+  padding: 12px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.first-name, .last-name {
+  width: 148px;
+}
+.email {
+  display: block;
+  width: 335px;
+}
+.d button {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  border: none;
+  width: 370px;
+  padding: 14px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.e {
+  margin: 100px 0;
+}
+.e input {
+  border: none;
+  background-color: rgb(245, 245, 245);
+  display: block;
+  margin: 8px 0;
+  padding: 10px 16px;
+  width: 300px;
+  font-size: 16px;
+}
+.request-btt, .schedule-btt {
+  font-size: 16px;
+  padding: 12px 20px;
+  border: none;
+  margin: 20px 14px 0 0;
+}
+.request-btt {
+  background-color: black;
+  color: white;
+}

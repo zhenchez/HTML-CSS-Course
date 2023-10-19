@@ -1,0 +1,133 @@
+* {
+  font-family: Arial;
+}
+.a {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px 0;
+}
+.b {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+.c {
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-left: 15px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+.d {
+  width: 370px;
+  color: gray;
+  padding: 4px 18px;
+  background-color: #202120;
+}
+.d-header {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 8px;
+} 
+.e {
+  width: 650px;
+  padding: 15px 20px;
+  margin: 40px;
+  border-radius: 14px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.e img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 75px;
+  vertical-align: middle;
+}
+.e input {
+  width: 400px;
+  height: 60px;
+  border: none;
+  font-size: 24px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+.e button {
+  background-color: rgb(47, 112, 233);
+  color: white;
+  border: none;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+.f {
+  display: inline-block;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  width: 250px;
+  margin: 0 15px;
+}
+.f img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+.name {
+  margin: 6px 12px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.mutual-friends{
+  margin: 6px 12px;
+  color: rgb(94, 94, 94);
+}
+.f button {
+  margin: 6px 12px;
+  background-color: rgb(102, 112, 248);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+.g {
+  margin: 20px 0;
+}
+.h {
+  margin: 80px;
+}
+.image {
+  text-align: center;
+}
+.search-bar {
+  text-align: center;
+}
+.search-bar input {
+  width: 600px;
+  height: 40px;
+  padding: 4px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.search-bar input:focus {
+  outline: none;
+}
+.btts {
+  margin: 30px 0;
+  text-align: center;
+}
+.btts button {
+  background-color: rgb(240, 240, 240);
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  margin: 0 5px;
+}
