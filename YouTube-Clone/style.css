@@ -4,13 +4,42 @@
 html {
   font-family: Roboto, Arial;
   background-color: var(--background);
-  margin: 16px;
+  margin: 0 16px;
 }
 
 :root {
   --background: rgb(15, 15, 15); 
   --title: rgb(241, 241, 241);
   --details: rgb(170, 170, 170);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.left-section {
+  background-color: lightpink;
+  width: 100px;
+}
+.middle-section {
+  margin: 0 120px;
+  max-width: 500px;
+  flex: 1;
+}
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+  width: 180px;
+}
+.search-bar {
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 50px;
+  background: transparent;
+  border: 1px solid rgb(200, 200, 200);
 }
 
 .video-container-grid {

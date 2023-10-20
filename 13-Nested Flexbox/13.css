@@ -1,0 +1,179 @@
+html {
+  font-family: Arial;
+}
+
+.a {
+  display: flex;
+  height: 50px;
+  margin: 40px;
+}
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  background-color: lightpink;
+}
+.normal-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  background-color: lightblue;
+}
+.b {
+  display: flex;
+  height: 50px;
+  margin: 40px;
+}
+.pink {
+  background-color: lightpink;
+  width: 100px;
+}
+.blue {
+  background-color: lightblue;
+  width: 200px;
+}
+.row1 {
+  margin: 0;
+}
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  margin: -13px 0;
+}
+.row2 p {
+  background-color: black;
+  color: white;
+}
+
+.c {
+  margin: 40px;
+  width: 450px;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 6px  16px 16px 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.all-inboxes {
+  margin-top: 6px;
+  color: gray;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.profile-picture {
+  width: 50px;
+}
+.profile-img {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.profile-details {
+  flex: 1;
+  margin: 10px;
+  cursor: pointer;
+}
+.profile-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+.name {
+  font-weight: bold;
+  font-size: 20px;
+}
+.time {
+  color: gray;
+}
+.detail, .chat {
+  margin: 6px 0;
+}
+.detail {
+  font-weight: bold;
+}
+.chat {
+  color: gray;
+}
+
+.e {
+  margin: 40px;
+  width: 450px;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 6px  16px 16px 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.f {
+  display: flex;
+  width: 400px;
+  margin: 40px;
+  border: 1px solid rgb(200, 200, 200);
+  padding: 10px 14px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.profile-img-container {
+  width: 50px;
+}
+.f-profile-img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.content {
+  flex: 1;
+  margin-left: 14px;
+}
+.f-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+  cursor: pointer;
+}
+.user-at {
+  font-weight: normal;
+  color: gray;
+}
+.tweet {
+  margin: 4px 0 4px 0;
+  line-height: 22px;
+}
+.link {
+  cursor: pointer;
+  display: flex;
+  margin: 14px 0;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 14px;
+}
+.link-img {
+  width: 100px;
+}
+.link-img img {
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 14px 0 0 14px;
+}
+.link-content {
+  flex: 1;
+  margin: 0 14px 0 14px;
+}
+.link-url {
+  color: gray;
+  margin-bottom: 4px;
+}
+.link-text {
+  margin-top: 4px;
+}
