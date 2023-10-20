@@ -7,21 +7,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/videos.css">
 </head>
 <body>
   <div class="header">
     <div class="left-section">
-      <p>Logo</p>
+      <button class="hamburger-menu-btt"><img class="hamburger-menu" src="./icons/hamburger-menu.svg"></button>
+      <img class="youtube-logo" src="./img/youtube.svg">
     </div>
     <div class="middle-section">
       <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-btt"><img class="search-icon" src="./icons/search.svg"></button>
+      <button class="voice-search-btt"><img class="voice-search-icon" src="./icons/voice-search-icon.svg" ></button>
     </div>
     <div class="right-section">
-      <button>dots</button>
-      <button>Sign in</button>
+      <button class="upload-btt"><img class="upload-icon" src="./icons/upload.svg"></button>
+      <button class="notification-btt"><img class="notification-icon" src="./icons/notifications.svg"></button>
+      <div class="personal-profile">
+        <img class="personal-profile-img" src="./profile-pic/zzbeatz.png">
+      </div>
     </div>
   </div>
+
   <div class="video-container-grid">
     <div class="video-preview">
       <div class="thumbnail-row">

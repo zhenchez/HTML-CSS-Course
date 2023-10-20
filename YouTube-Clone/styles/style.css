@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+}
+html {
+  font-family: Roboto, Arial;
+  background-color: var(--background);
+  margin: 0 24px;
+}
+
+:root {
+  --background: rgb(15, 15, 15); 
+  --title: rgb(241, 241, 241);
+  --details: rgb(170, 170, 170);
+}
