@@ -1,0 +1,94 @@
+html {
+  font-family: Arial;
+  height: 2000px;
+}
+
+.a {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.x-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.b {
+  background-color: gray;
+  height: 180px;
+  width: 320px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.b-x-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  cursor: pointer;
+}
+.duration {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: black;
+  color: white;
+  padding: 6px 8px;
+}
+
+.e {
+  margin: 40px;
+  position: relative;
+  display: inline-block;
+}
+.product-img {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+}
+.discount {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  padding: 10px 16px;
+}
+
+.f {
+  margin: 40px;
+  position: relative;
+  display: inline-block;
+}
+.f-discount {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  padding: 10px 16px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background-color: rgba(200, 200, 200, .7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-to-cart-btn {
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 1px solid black;
+}
