@@ -30,6 +30,8 @@
 }
 .channel-picture {
   position: relative;
+  height: 50px;
+  width: 40px;
 }
 .channel-details {
   margin: 0 10px;
@@ -39,12 +41,13 @@
   display: flex;
   align-items: center;
   position: absolute;
-  background-color: rgb(10, 10, 10);
+  background-color: #272727;
   padding: 10px;
   width: 350px;
   pointer-events: none;
   opacity: 0;
   transition: opacity 0.15s ease;
+  border-radius: 4px;
 }
 .channel-name {
   color: white;
@@ -57,7 +60,6 @@
 .subscribe-btn {
   background-color: #f1f1f1;
   border: none;
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   padding: 10px 20px;
@@ -71,11 +73,9 @@
   width: 40px;
   border-radius: 50%;
 }
-.profile-picture:hover .channel-tooltip {
+.channel-picture:hover .channel-tooltip {
+  pointer-events: auto;
   opacity: 1;
-}
-.video-info {
-
 }
 .video-title {
   margin-bottom: 6px;
@@ -92,7 +92,7 @@
   font-size: 14px;
   transition: color .3s ease;
 }
-.video-channel:hover {
+.video-channel:hover{
   color: var(--title);
 }
 

@@ -10,7 +10,7 @@
   right: 0;
   background-color: var(--background);
   margin: 0 16px;
-  z-index: 100;
+  z-index: 200;
 }
 .left-section {
   display: flex;
@@ -128,13 +128,12 @@
   padding: 10px 8px;
   background-color: rgba(100, 100, 100, 0.9);
   color: white;
+  opacity: 0;
   font-size: 12px;
   border-radius: 4px;
-  opacity: 0;
   pointer-events: none;
   transition: opacity .15s ease;
   white-space: nowrap;
-  font-family: Roboto;
 }
 .search-btt:hover .tooltip, 
 .voice-search-btt:hover .tooltip, 
