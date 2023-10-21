@@ -3,16 +3,25 @@
   grid-template: auto / repeat(3, 1fr);
   gap: 40px 16px;
 }
-.video-preview {
-
-}
 .thumbnail-row {
   margin-bottom: 12px;
   cursor: pointer;
+  position: relative;
 }
 .thumbnail {
   width: 100%;
   border-radius: 8px;
+}
+.video-duration {
+  position: absolute;
+  right: 4px;
+  bottom: 8px;
+  color: white;
+  background-color: rgba(0, 0, 0, .7);
+  padding: 2px 4px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 4px;
 }
 .video-info-grid {
   display: grid;
