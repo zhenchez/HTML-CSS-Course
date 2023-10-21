@@ -4,10 +4,23 @@
 html {
   font-family: Roboto, Arial;
   background-color: var(--background);
-  margin: 0 16px;
-  padding-top: 80px;
-  padding-left: 80px;
+  padding: 140px 30px 0 100px;
+  scroll-behavior: smooth;
   height: 2000px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 4px;
+  margin: 4px 0;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(165, 165, 165);
+  border-radius: 4px;
+  margin: 4px 0;
 }
 
 :root {

@@ -28,3 +28,39 @@
 .shorts-btn img, .history-btn img {
   width: 22px;
 }
+
+.middle-slide-bar {
+  display: flex;
+  background-color: var(--background);
+  align-items: center;
+  padding: 12px 28px;
+  position: fixed;
+  top: 60px;
+  left: 72px;
+  z-index: 100;
+}
+.middle-slide-btns {
+  color: white;
+  font-size: 14px;
+  background-color: #272727;
+  padding: 8px 14px;
+  border-radius: 8px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.middle-slide-btns:hover {
+  background-color: #414141;
+}
+.main-all-btn {
+  margin-left: 0;
+  background-color: #f1f1f1;
+  color: rgb(15, 15, 15);
+}
+.main-all-btn:hover {
+  margin-left: 0;
+  background-color: #f1f1f1;
+  color: rgb(15, 15, 15);
+}

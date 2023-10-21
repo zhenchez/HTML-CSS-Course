@@ -89,6 +89,7 @@
   align-items: center;
   width: 160px;
   flex-shrink: 0;
+  margin-right: 14px;
 }
 .upload-btt, .notification-btt, .hamburger-menu-btt {
   display: flex;
@@ -108,9 +109,6 @@
 .upload-icon, .notification-icon, .hamburger-menu {
   width: 24px;
 }
-.notification-btt {
-  position: relative;
-}
 .notification-count {
   position: absolute;
   top: -1px;
@@ -120,6 +118,28 @@
   padding: 2px 6px;
   border-radius: 50%;
   border: 2px solid var(--background);
+}
+.search-btt, .voice-search-btt, .upload-btt, .notification-btt {
+  position: relative;
+}
+.tooltip {
+  position: absolute;
+  bottom: -60px;
+  padding: 10px 8px;
+  background-color: rgba(100, 100, 100, 0.9);
+  color: white;
+  font-size: 12px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .15s ease;
+  white-space: nowrap;
+}
+.search-btt:hover .tooltip, 
+.voice-search-btt:hover .tooltip, 
+.upload-btt:hover .tooltip, 
+.notification-btt:hover .tooltip {
+  opacity: 1;
 }
 
 .personal-profile {
