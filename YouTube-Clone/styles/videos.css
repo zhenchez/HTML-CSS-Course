@@ -29,11 +29,50 @@
   cursor: pointer;
 }
 .channel-picture {
-
+  position: relative;
+}
+.channel-details {
+  margin: 0 10px;
+  flex: 1;
+}
+.channel-tooltip {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: rgb(10, 10, 10);
+  padding: 10px;
+  width: 350px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.channel-name {
+  color: white;
+  margin-bottom: 4px;
+}
+.channel-subs {
+  font-size: 12px;
+  color: var(--details);
+}
+.subscribe-btn {
+  background-color: #f1f1f1;
+  border: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.subscribe-btn:hover {
+  background-color: #dbdbdb;
 }
 .profile-picture {
   width: 40px;
   border-radius: 50%;
+}
+.profile-picture:hover .channel-tooltip {
+  opacity: 1;
 }
 .video-info {
 
@@ -56,3 +95,4 @@
 .video-channel:hover {
   color: var(--title);
 }
+

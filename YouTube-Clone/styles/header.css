@@ -134,6 +134,7 @@
   pointer-events: none;
   transition: opacity .15s ease;
   white-space: nowrap;
+  font-family: Roboto;
 }
 .search-btt:hover .tooltip, 
 .voice-search-btt:hover .tooltip, 
