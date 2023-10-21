@@ -4,7 +4,9 @@
 html {
   font-family: Roboto, Arial;
   background-color: var(--background);
-  margin: 0 24px;
+  margin: 0 16px;
+  padding-top: 80px;
+  padding-left: 80px;
 }
 
 :root {
